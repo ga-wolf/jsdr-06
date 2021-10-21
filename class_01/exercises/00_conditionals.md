@@ -53,3 +53,11 @@ Store a year (e.g. `1905`, `1814`)
 - If the year is between 1901 and 2000, log `"20th Century"`
 - If the year is between 2001 and 2100, log `"21st Century"`
 - Otherwise, log `"Sorry, it must be another century"`
+
+## Greet
+
+Store an `hour`, as 24 hour time (e.g. `9`, `16`)
+
+- If `hour` is less than 10, log `"Good Morning"`
+- Else if the `hour` is less than 19, log `"Good Day"`
+- Otherwise, log `"Good Evening"`
