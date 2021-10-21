@@ -24,3 +24,22 @@ Store the user's name and age.
 **Bonus**: Get the name and age using `prompt`!
 
 **Bonus**: If the user can't drive yet, tell them how many years they have before they can drive (e.g. `"Sorry, you still have 4 years before you can drive"`)
+
+## Say Hi!
+
+Store a language (e.g. `"English"`, `"French"` or `"Malaysian"`)
+
+- If the language is `"English"`, log `"Hi"`
+- If the language is `"French"`, log `"Bonjour"`
+- If the language is `"Norwegian"`, log `"Hallo"`
+- If the language is `"Turkish"`, log `"Merhaba"`
+- Plus, any other language you want to add!
+
+## Year in the 19th, 20th or 21st Century?
+
+Store a year (e.g. `1905`, `1814`)
+
+- If the year is between 1801 and 1900, log `"19th Century"`
+- If the year is between 1901 and 2000, log `"20th Century"`
+- If the year is between 2001 and 2100, log `"21st Century"`
+- Otherwise, log `"Sorry, it must be another century"`
