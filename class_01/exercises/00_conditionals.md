@@ -35,6 +35,16 @@ Store a language (e.g. `"English"`, `"French"` or `"Malaysian"`)
 - If the language is `"Turkish"`, log `"Merhaba"`
 - Plus, any other language you want to add!
 
+## Southern or Northern Hemisphere?
+
+Store a `latitude` (e.g. `65.3966675`, `-43.7251374`)
+
+- If the `latitude` is less than 0, log `"Southern Hemisphere"`
+- If the `latitude` is greater than 0, log `"Northern Hemisphere"`
+- Otherwise, log `"On the equator"`
+
+**Bonus:** Figure out if it is the Eastern or Western Hemisphere too!
+
 ## Year in the 19th, 20th or 21st Century?
 
 Store a year (e.g. `1905`, `1814`)
