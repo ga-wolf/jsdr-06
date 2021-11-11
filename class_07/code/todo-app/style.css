@@ -1,0 +1,27 @@
+.container {
+  margin: 10px auto;
+  width: 80%;
+}
+
+.add {
+  background: dodgerblue;
+  padding: 5px;
+}
+
+.add input {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.add button {
+  display: block;
+  margin: 10px auto 0;
+}
+
+.todo {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
