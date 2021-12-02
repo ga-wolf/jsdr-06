@@ -1,0 +1,15 @@
+body {
+  background: rebeccapurple;
+}
+
+path {
+  stroke: white;
+  stroke-width: 10;
+  stroke-dasharray: 1909.5477294921875;
+  stroke-dashoffset: 1909.5477294921875;
+  transition: stroke-dashoffset 1s;
+}
+
+svg:hover path {
+  stroke-dashoffset: 0;
+}
