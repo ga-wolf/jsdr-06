@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+:root {
+  --shadow-color: 226deg 57% 37%;
+  --shadow-elevation-high: 0.2px 0.2px 0.3px hsl(var(--shadow-color) / 0.89),
+    3.5px 3.6px 5.6px -1.2px hsl(var(--shadow-color) / 0.89),
+    15.5px 15.7px 24.8px -2.5px hsl(var(--shadow-color) / 0.89);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  align-items: center;
+  background: #5c7be0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Space Mono", "Founders Grotesk Mono", Dank Mono, Heimat Regular,
+    Cascadia Mono Light, Operator Mono, GT Pressura Mono Light, Space Mono,
+    Dank Mono, Menlo, Monaco, "Courier New", monospace;
+}
+
+nav {
+  color: #f8f8ff;
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+nav h4 {
+  margin: 0;
+}
+
+#app {
+  background: #f8f8ff;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-elevation-high);
+  height: 80vh;
+  max-width: 42rem;
+  padding: 0 0.5rem;
+  position: relative;
+  width: 80%;
+}
+
+form {
+  bottom: 0.5rem;
+  display: flex;
+  height: 3rem;
+  position: absolute;
+  width: calc(100% - 1rem);
+}
+
+form.login {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+form input {
+  border: 0.15rem solid #16161d;
+  border-radius: 0.5rem 0 0 0.5rem;
+  flex: 1 1 100%;
+  font: inherit;
+  outline: none;
+  padding: 0.4rem 0.8rem;
+}
+
+form button {
+  border-radius: 0 0.5rem 0.5rem 0;
+  background: #16161d;
+  border: 0.15rem solid #16161d;
+  border-left: none;
+  color: #f8f8ff;
+  flex: 0 1 auto;
+  font: inherit;
+  outline: none;
+  padding: 0.4rem 0.8rem;
+}
+
+.messages {
+  padding: 0.5rem 0 0;
+  height: calc(100% - 3.5rem);
+  position: absolute;
+  width: calc(100% - 1rem);
+  overflow: scroll;
+}
+
+.message {
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  position: relative;
+  width: 80%;
+}
+
+.message p {
+  margin: 0;
+}
+
+.your-message {
+  background: #cba0aa;
+  left: 20%;
+}
+
+.their-message {
+  background: #f8ebee;
+}
