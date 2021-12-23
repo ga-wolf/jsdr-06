@@ -1,0 +1,21 @@
+{
+  "name": "our-threejs-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "three": "^0.135.0",
+    "three-orbit-controls": "^82.1.0"
+  }
+}
